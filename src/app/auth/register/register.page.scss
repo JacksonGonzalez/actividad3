@@ -1,0 +1,35 @@
+.fondo{
+	--background: #000000;
+	color: white;
+}
+
+ion-item{
+    --background: #000000;
+    --color: white;
+}
+
+h3{
+	color: white;
+}
+ion-header{
+	--background: #00bbd3;
+}
+
+ion-toolbar {
+	--background-color: #00bbd3;
+	--text-color: white;
+}
+
+p {
+  font-size: 25px;
+  line-height: 22px;
+
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+a {
+
+  text-decoration: none;
+}
