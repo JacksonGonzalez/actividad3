@@ -1,22 +1,10 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Actividad 3 Aplicacion Movil
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
   <div id="container">
-    <h2>Bienvenido a la Actividad N° 3</h2>
+    <h1>Bienvenido a</h1>
+    <h1>la Actividad N° 3</h1>
     <br><br><br>
-    <p><a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">Iniciar Sesion</a></p>
-    <p><a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">Crear Cuenta</a></p>
+    <ion-button color="black"  shape="round" fill="outline" type="button" expand="block">Iniciar Sesión</ion-button><br>
+    <ion-button [routerLink]="['/register']" color="black"  shape="round" fill="outline" type="button" expand="block">Registrarse</ion-button>
   </div>
 </ion-content>
