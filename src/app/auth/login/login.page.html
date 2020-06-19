@@ -1,9 +1,26 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>login</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
+<ion-content color="black" padding>
+  <form #form="ngForm" (ngSubmit)="login(form)">
+    <ion-grid>
+      <ion-row  justify-content-center>
+        <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
+          <div text-center>
+            <h3 align="center" color="white">Iniciar Sesion</h3>
+          </div>
+          <div padding>
+            <ion-item>
+              <ion-input name="email" type="email" placeholder="correo@email.com" ngModel required></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-input name="password" type="password" placeholder="Contraseña" ngModel required></ion-input>
+            </ion-item>
+          </div>
+          <div padding>
+            <ion-button color="black"  shape="round" fill="outline" type="button" [disabled]="form.invalid" expand="block">Iniciar Sesión</ion-button>
+            <ion-button routerLink='/home' color="black"  shape="round" fill="outline" type="button" expand="block">Volver</ion-button>
+          </div><br>
+          <p>No tienes cuenta <a routerLink='/register'>Registrate</a></p>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </form>
 </ion-content>

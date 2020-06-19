@@ -23,11 +23,11 @@
           </div>
           <div padding>
             <ion-button color="black"  shape="round" fill="outline" type="button" [disabled]="form.invalid" expand="block">Registrarse</ion-button>
-            <ion-button [routerLink]="['/register']" color="black"  shape="round" fill="outline" type="button" [disabled]="form.invalid" expand="block">Volver</ion-button>
+            <ion-button routerLink='/home' color="black"  shape="round" fill="outline" type="button" expand="block">Volver</ion-button>
           </div>
           <br>
           <br>
-          <p>Ya tienes cuenta <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">Inicia Sesion</a></p>
+          <p>Ya tienes cuenta <a routerLink='/login'>Inicia Sesion</a></p>
         </ion-col>
       </ion-row>
     </ion-grid>

@@ -1,10 +1,10 @@
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" color="black">
   <div id="container">
     <h1>Bienvenido a</h1>
     <h1>la Actividad N° 3</h1>
     <br><br><br>
-    <ion-button color="black"  shape="round" fill="outline" type="button" expand="block">Iniciar Sesión</ion-button><br>
-    <ion-button [routerLink]="['/register']" color="black"  shape="round" fill="outline" type="button" expand="block">Registrarse</ion-button>
+    <ion-button routerLink='/login'color="black"  shape="round" fill="outline" type="button" expand="block">Iniciar Sesión</ion-button><br>
+    <ion-button routerLink='/register' [routerLink]="['/register']" color="black"  shape="round" fill="outline" type="button" expand="block">Registrarse</ion-button>
   </div>
 </ion-content>
