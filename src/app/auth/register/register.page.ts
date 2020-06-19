@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from  "@angular/router";
-import { AuthService } from '../auth.service';
+// import { Router } from  "@angular/router";
+// import { AuthService } from '../auth.service';
 
 @Component({
   selector: 'app-register',
@@ -11,19 +11,19 @@ export class RegisterPage implements OnInit {
 
 //private authService:  AuthService, private  router:  Router
 
-  constructor(private router: Router) { }
+  constructor() { }
 
   ngOnInit() {
   }
 
   register(form) {
-    this.authService.register(form.value).subscribe((res) => {
-      this.router.navigateByUrl('home');
-    });
+    // this.authService.register(form.value).subscribe((res) => {
+    //   this.router.navigateByUrl('home');
+    // });
   }
 
-  navigate(){
-    this.router.navigate(['/detail'])
-  }
+  // navigate(){
+  //   // this.router.navigate(['/detail'])
+  // }
 
 }

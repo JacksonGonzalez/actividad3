@@ -1,0 +1,41 @@
+h3{
+	color: white;
+	font-size: 20px;
+}
+
+ion-content{
+  --background: #000000;
+  color: white;
+}
+
+ion-list.md.list-md.hydrated{
+	background: black;
+}
+
+
+ion-list-header{
+  --background: #000000;
+}
+ion-item{
+    --background: #000000;
+    --color: white;
+}
+
+hr{
+	background: white;
+}
+
+p {
+  font-size: 15px;
+  /*line-height: 22px;*/
+
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+a {
+
+  text-decoration: none;
+}
+
