@@ -1,4 +1,5 @@
 # actividad3
+Participantes = @JacksonGC @BDRH y @skynet
 Actividad de crear una app hibrida
  Requerimiento de aplicación para celular android/ios 
 Crearan un aplicación con ionic en la cual puedan crear con solo un código dos aplicaciones
